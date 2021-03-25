@@ -1,0 +1,17 @@
+.projects h1 {
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.projects h2 {
+    color: black;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.cards {
+    padding: 1% 6%;
+    display:flex;
+    justify-content: space-between;
+}

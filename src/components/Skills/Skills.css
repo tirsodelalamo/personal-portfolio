@@ -1,0 +1,16 @@
+.skills {
+    background-color: black;
+    padding: 3% 0%;
+}
+
+.skills h1 {
+    padding-top: 0%;
+    padding-bottom: 2%;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}

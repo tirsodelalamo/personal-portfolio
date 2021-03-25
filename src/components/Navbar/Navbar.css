@@ -1,0 +1,122 @@
+/* SMOOTH SCROLLING PARA TODA LA PAGINA */
+
+/* html {
+    scroll-behavior: smooth; 
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.9);
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 0;
+}
+
+.navbar>li>a {
+    text-decoration: none;
+    color:white
+}
+
+.navbar>li>a:hover {
+    color: red;
+    cursor: pointer;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+} */
+
+/* SMOOTH SCROLLING PARA TODA LA PAGINA  */
+
+/* html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.navbar {
+    margin: 0 0 0 20%;
+    list-style-type: none;
+}
+
+.navbar li {
+    padding: 0px;
+    vertical-align: text-top;
+}
+
+.navbar>li>a {
+    text-decoration: none;
+    font-size: 6em;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    writing-mode:vertical-rl;
+}
+
+.navbar>li>a:hover {
+    color: white;
+    cursor: pointer;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+    transform: scale(1.2);
+} */
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: transparent;
+    position: absolute;
+    padding-left: 50%;
+    margin-top: 7%;
+    z-index: 10;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar>li>a {
+    text-decoration: none;
+    font-size: 7em;
+    -webkit-text-stroke: 1px red;
+    color: transparent;
+    writing-mode: vertical-rl;
+}
+
+.navbar>li>a:hover {
+    color: red;
+    cursor: pointer;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+    transform: scale(1.2);
+}

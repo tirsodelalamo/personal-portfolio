@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "name": "Cat Invaders",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474062/cat-invaders_i5f4mb.png",
+        "description": "Videojuego inspirado en Space Invaders, en donde debes eliminar a los gatitos con lo que más odian, el agua.",
+        "github": "https://github.com/PatriciaJuradoDeBilbao/cat-invaders",
+        "url": "https://patriciajuradodebilbao.github.io/cat-invaders/",
+        "tech": "HTML | CSS | Javascript | Canvas"
+    },
+    {
+        "id": 2,
+        "name": "Records Never Die",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474062/records-never-die_mspmjw.png",
+        "description": "Fullstack app para comprar y vender vinilos, además de conocer las tiendas físicas en Madrid.",
+        "github": "https://github.com/RecordsNeverDie/RecordsNeverDie",
+        "url": "https://recordsneverdie.herokuapp.com/",
+        "tech": "HTML | SAAS | Bootstrap | Javascript | NodeJS | ExpressJS | MongoDB"
+    },
+    {
+        "id": 3,
+        "name": "Let me choose",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474062/let-me-choose_zangni.png",
+        "description": "Fullstack SPA que elige un restaurante aleatorio según filtros de comida y rango de precio que selecciones.",
+        "github": "https://github.com/PatriciaJuradoDeBilbao/let-me-choose",
+        "url": "http://letmechoose.herokuapp.com/",
+        "tech": "HTML | CSS | Bootstrap | React | NodeJS | ExpressJS | MongoDB | Heroku"
+    },
+    {
+        "id": 4,
+        "name": "Weather App",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474062/weather-app_relyzf.png",
+        "description": "App del clima con fondo dinámico dependiendo de la temperatura del la ciudad que se busque.",
+        "github": "https://github.com/PatriciaJuradoDeBilbao/my-weather-app",
+        "url": "https://patriciajuradodebilbao.github.io/my-weather-app/index.html",
+        "tech": "HTML |  CSS | React | Heroku"
+    },
+    {
+        "id": 5,
+        "name": "Burger Builder",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474061/burger-builder_x2lhtz.png",
+        "description": "Proyecto desarrollado en el curso de Udemy (React - The Complete Guide (incl Hooks, React Router, Redux)).",
+        "github": "https://github.com/PatriciaJuradoDeBilbao/burger-build",
+        "url": "https://burger-builder-react-7820.web.app/",
+        "tech": "React |  Hooks |  Redux |  Firebase"
+    },
+    {
+        "id": 6,
+        "name": "Portfolio",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474061/portfolio_zvured.png",
+        "description": "Portfolio personal en donde añado los proyectos desarrollados durante mi formación y aprendizaje continuo.",
+        "github": "",
+        "tech": "HTML |  CSS |  React | Netlify"
+    }
+]

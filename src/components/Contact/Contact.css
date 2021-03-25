@@ -1,0 +1,56 @@
+.contact {
+    background-color: black;
+    margin-top: 0%;
+}
+
+.contact h1 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contact aside {
+    color: white;
+}
+
+.social-media {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.icon {
+    width: 36px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+figure {
+    vertical-align: middle;
+}
+
+.signature {
+    display: block;
+    padding: 0;
+    width: 50%;
+    margin:0 auto;
+    filter: invert(96%) sepia(100%) saturate(14%) hue-rotate(271deg) brightness(105%) contrast(103%);
+}
+
+.signature:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    transition: .5s;
+}
+
