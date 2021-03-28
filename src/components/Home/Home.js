@@ -5,7 +5,7 @@ import data from "../../resumeData.json";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
-  console.log(data);
+  console.log(data)
 
   return (
     <>

@@ -1,76 +1,13 @@
-/* --------PRIMERA VERSIÓN ------- */
-
-/* .home {
-    background-size: 400% 400%;
-    height: 100vh;
-    background-color: red;
-    padding-left: 5%;
-    padding-top: 10%
-}
-
-.home h1 {
-    color: black;
-    font-size: 10em;
-    font-weight: bold;
-}
-
-.home h2 {
-    font-size: 4em;
-    color: white;
-    font-weight: bold;
-} */
-
-/* SEGUNDA VERSION */
-
-/* .home {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: black;
-}
-
-.home h1 {
-    height: 50vh;
-    color: white;
-    font-weight: bold;
-    font-size: 10vw;
-    padding-top: 8.5%;
-    text-align: center;
-    margin-bottom: 11%;
-}
-
-.home h2 {
-    height: 50vh;
-    font-size: 6vw;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 10%;
-}
-
-span {
-    display: inline-block;
-}
-
-.higher {
-    transform: scale(1, 4.1);
-}
-
-.lower {    
-    transform: scale(1, 5.1);
-} */
-
 .home {
   font-family: sans-serif;
   font-weight:800;
   font-size:60px;
-  /* text-align: center; */
   padding-left: 5%;
   display:flex;
   justify-content:left;
   align-items:center;
   min-height:100vh;
-  background:black;
+  background:#1d1d1d;
   color:white
 }
 
@@ -82,37 +19,45 @@ span {
   }
   
   .a:hover {
-    color: rgb(255, 0, 0);
-    /* animation: rubberBand 5s infinite; */
-    animation-name: rubberBand;
+    color: #08fdd8;
+    animation: rubberBand linear .7s;
   }
   
+
   @keyframes rubberBand {
-    from {
-      transform: scale3d(1, 1, 1);
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      -ms-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1)
     }
-  
     30% {
-      transform: scale3d(1.25, 0.75, 1);
+      -webkit-transform: scale3d(1.25, .75, 1);
+      -ms-transform: scale3d(1.25, .75, 1);
+      transform: scale3d(1.25, .75, 1)
     }
-  
     40% {
-      transform: scale3d(0.75, 1.25, 1);
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      -ms-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1)
     }
-  
     50% {
-      transform: scale3d(1.15, 0.85, 1);
+      -webkit-transform: scale3d(1.15, .85, 1);
+      -ms-transform: scale3d(1.15, .85, 1);
+      transform: scale3d(1.15, .85, 1)
     }
-  
     65% {
-      transform: scale3d(.95, 1.05, 1);
+      -webkit-transform: scale3d(.95, 1.05, 1);
+      -ms-transform: scale3d(.95, 1.05, 1);
+      transform: scale3d(.95, 1.05, 1)
     }
-  
     75% {
-      transform: scale3d(1.05, .95, 1);
+      -webkit-transform: scale3d(1.05, .95, 1);
+      -ms-transform: scale3d(1.05, .95, 1);
+      transform: scale3d(1.05, .95, 1)
     }
-  
-    to {
-      transform: scale3d(1, 1, 1);
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      -ms-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1)
     }
-  } 
+  }
