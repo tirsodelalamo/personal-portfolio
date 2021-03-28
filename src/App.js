@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import Navbar from './components/Navbar/Navbar'
+import Burger from './components/UI/Burger'
+import Navbar from './components/Navbar'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
@@ -11,9 +12,16 @@ import Footer from './components/Footer/Footer'
 import projects from './projects.json'
 
 function App() {
+
+  const [open, setOpen] = useState(false)
+
   return (
+
     <>
-      {/* <Navbar /> */}
+      <div>
+        <Burger open={open} setOpen={setOpen} />
+        <Navbar open={open} setOpen={setOpen} />
+      </div>
       <Home />
       <About />
       <Skills />

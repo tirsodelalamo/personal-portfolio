@@ -1,41 +1,36 @@
 import React from 'react';
-import './Navbar.css'
+import { bool } from 'prop-types';
+import { StyledMenu } from './Navbar.styled';
 
-const Navbar = () => {
-    return (
-      <nav>
-        <ul id="nav" className="navbar">
-          <li>
-            <a href="#home">
-              HOME
-            </a>
-          </li>
-          <li>
-            <a href="#About">
-              ABOUT
-            </a>
-          </li>
-          <li>
-            <a href="#Skills">
-              SKILLS
-            </a>
-          </li>
-          <li>
-            <a href="#Projects">
-              PROJECTS
-            </a>
-          </li>
-          <li>
-            <a href="#Contact">
-              CONTACT
-            </a>
-          </li>
-        </ul>
-      </nav>
-
- 
-    );
+const Menu = ({ open }) => {
+  return (
+    <StyledMenu open={open}>
+      <a href="#home">
+          <span role="img" aria-label="home"></span>
+          Home
+        </a>
+        <a href="#About">
+          <span role="img" aria-label="about"></span>
+          About
+        </a>
+        <a href="#Skills">
+          <span role="img" aria-label="skills"></span>
+          Skills
+        </a>
+        <a href="#Projects">
+          <span role="img" aria-label="projects"></span>
+          Projects
+        </a>
+        <a href="#Contact">
+          <span role="img" aria-label="contact"></span>
+          Contact
+        </a>
+    </StyledMenu>
+  )
 }
- 
-export default Navbar;
+
+Menu.propTypes = {
+  open: bool.isRequired,
+}
+export default Menu;
 
