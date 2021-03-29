@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import { useOnClickOutside } from './hooks';
 
 import Burger from './components/UI/Burger'
 import Navbar from './components/Navbar'
@@ -14,11 +15,13 @@ import projects from './projects.json'
 function App() {
 
   const [open, setOpen] = useState(false)
+  const node = useRef();
+  useOnClickOutside(node, () => setOpen(false));
 
   return (
 
     <>
-      <div>
+      <div ref={node}>
         <Burger open={open} setOpen={setOpen} />
         <Navbar open={open} setOpen={setOpen} />
       </div>

@@ -1,0 +1,5 @@
+.earth {
+  z-index: 1;
+  position: absolute;
+  background-color: transparent;
+}

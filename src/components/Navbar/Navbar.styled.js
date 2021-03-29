@@ -4,7 +4,7 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #EFFFFA;
+  background: white;
   height: 100vh;
   text-align: left;
   padding: 2rem;
@@ -35,7 +35,7 @@ export const StyledMenu = styled.nav`
     }
 
     &:hover {
-      color: #343078;
+      color: #D91616;
     }
   }
 `;

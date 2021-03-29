@@ -2,7 +2,9 @@ import React from "react";
 import "./Home.css";
 import data from "../../resumeData.json";
 
-import Typewriter from "typewriter-effect";
+// import Earth from '../UI/Earth/Earth'
+
+// import Typewriter from "typewriter-effect";
 
 const Home = () => {
   console.log(data)
@@ -10,7 +12,14 @@ const Home = () => {
   return (
     <>
       <div className="home">
-      <Typewriter
+      <div className='intro-page'></div>
+      {/* <Earth /> */}
+      <div className='intro-text'>
+        <h1>My name is <a href='https://www.linkedin.com/in/tirsodelalamomartin/'><span>Tirso del Álamo</span></a>,</h1>
+        <h1>and this is my website.</h1>
+        <h2>I'm a Full Stack Web Developer</h2>
+      </div>
+      {/* <Typewriter
 
        options={{
        delay: 50,
@@ -28,7 +37,7 @@ const Home = () => {
        .typeString('<br><span class="a" >W</span><span class="a" >e</span><span class="a" >b</span> <span class="a" >d</span><span class="a" >e</span><span class="a" >v</span><span class="a" >e</span><span class="a" >l</span><span class="a" >o</span><span class="a" >p</span><span class="a" >e</span><span class="a" >r</span>')
        .start();
        }}
-       />
+       /> */}
     </div>
     </>
   );
